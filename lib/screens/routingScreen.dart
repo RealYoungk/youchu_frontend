@@ -28,6 +28,20 @@ class _RoutingScreenState extends State<RoutingScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: [
+            Image.asset(
+              'assets/loginLogo.png',
+              scale: 6,
+            ),
+            Image.asset('assets/loginLogoText.png'),
+            Icon(Icons.menu),
+          ],
+        ),
+        automaticallyImplyLeading: false,
+      ),
       bottomNavigationBar: BottomNavigationBar(
         type: BottomNavigationBarType.fixed,
         onTap: _onTab,

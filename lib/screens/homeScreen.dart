@@ -4,20 +4,6 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: [
-            Image.asset(
-              'assets/loginLogo.png',
-              scale: 6,
-            ),
-            Image.asset('assets/loginLogoText.png'),
-            Icon(Icons.menu),
-          ],
-        ),
-        automaticallyImplyLeading: false,
-      ),
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.all(10.0),
