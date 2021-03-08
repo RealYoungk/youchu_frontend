@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:youchu_frontend/screens/homeScreen.dart';
-import 'package:youchu_frontend/screens/notification.dart';
+// import 'package:youchu_frontend/screens/notification.dart';
 import 'package:youchu_frontend/screens/profileScreen.dart';
-import 'package:youchu_frontend/screens/searchScreen.dart';
+// import 'package:youchu_frontend/screens/searchScreen.dart';
 import 'package:youchu_frontend/screens/uploadScreen.dart';
 
 class RoutingScreen extends StatefulWidget {

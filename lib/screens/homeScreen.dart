@@ -29,9 +29,9 @@ class HomeScreen extends StatelessWidget {
                     children: <Widget>[
                       Row(
                         children: <Widget>[
-                          Image.asset(
-                            'assets/profile.png',
-                            scale: 0.75,
+                          CircleAvatar(
+                            maxRadius: 30.0,
+                            backgroundImage: AssetImage('assets/profile.jpg'),
                           ),
                           Padding(
                             padding: const EdgeInsets.only(left: 10.0),
@@ -149,9 +149,9 @@ class HomeScreen extends StatelessWidget {
                     children: <Widget>[
                       Row(
                         children: <Widget>[
-                          Image.asset(
-                            'assets/profile.png',
-                            scale: 0.75,
+                          CircleAvatar(
+                            maxRadius: 30.0,
+                            backgroundImage: AssetImage('assets/profile.jpg'),
                           ),
                           Padding(
                             padding: const EdgeInsets.only(left: 10.0),

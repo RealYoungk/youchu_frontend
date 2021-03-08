@@ -18,7 +18,7 @@ class YouChuApp extends StatelessWidget {
         primaryColor: Colors.white,
       ),
       // home: LoginScreen(),
-      initialRoute: '/',
+      initialRoute: '/route',
       routes: {
         '/': (context) => LoginScreen(),
         '/route': (context) => RoutingScreen(),
